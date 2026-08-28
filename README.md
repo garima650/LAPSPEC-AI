@@ -7,7 +7,7 @@ An end-to-end Machine Learning web application that predicts laptop market price
 ---
 
 ## 📊 Dataset & Features
-The baseline dataset was sourced from **[Kaggle](https://kaggle.com)**. It contains structural and performance details for over 1,300 laptops.
+The baseline dataset was sourced from **[Kaggle] It contains structural and performance details for over 1,300 laptops.
 
 ### Target Variable
 * `Price` (Actual market cost of the configuration)
