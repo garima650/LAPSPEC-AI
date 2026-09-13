@@ -137,19 +137,6 @@ if st.button("🔮 GENERATE PRICE VALUATION", type="primary", use_container_widt
     # If your model targets a log scale index (np.log1p), uncomment the line below:
     # predicted_raw = float(np.expm1(predicted_raw))
     
-    # 🎉 LIGHTWEIGHT LOCAL CONFETTI INJECTION
-    # This runs directly inside the host browser page context to avoid lagging out the app.
-    st.components.v1.html("""
-        <script>
-            // Tell the master parent browser frame to trigger a native celebration blast
-            window.parent.document.dispatchEvent(new CustomEvent('test-confetti', {detail: {}}));
-        </script>
-        <script src="https://jsdelivr.net"></script>
-        <script>
-            // Fallback immediate rendering burst container inside the card row
-            confetti({ particleCount: 150, spread: 80, origin: { y: 0.3 }, colors: ['#f59e0b', '#fbbf24', '#ffffff'] });
-        </script>
-    """, height=0)
 
     # Render the layout results card instantly
     st.markdown(f"""
