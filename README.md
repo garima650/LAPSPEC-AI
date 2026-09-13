@@ -2,7 +2,7 @@
 
 An end-to-end Machine Learning web application that predicts laptop market prices based on hardware specifications. The project covers the complete data science lifecycle—from raw Kaggle data processing to model serialization and live cloud deployment via a premium dark-steel interactive dashboard.
 
-🚀 **Live Dashboard Link:** IN PROGRESS
+🚀 **Live Dashboard Link: [LIVE DEMO](https://lapspec.streamlit.app/)
 
 ---
 
